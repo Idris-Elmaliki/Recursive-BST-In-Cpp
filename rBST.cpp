@@ -142,15 +142,3 @@ public:
         DestroyRecursive(root); 
     }
 };
-
-int main(void) {
-
-    rBST b(2);
-
-    b.rInsert(1); 
-    b.rInsert(3); 
-
-    b.rDelete(2);
-
-    std::cin.get(); 
-}
